@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [28/May/2015:17:12:52 -0300] "GET / HTTP/1.1" 200 2778 http-bio-8080-exec-1 244
+0:0:0:0:0:0:0:1 - - [28/May/2015:17:12:52 -0300] "GET /resources/css/bootstrap.min.css HTTP/1.1" 200 110939 http-bio-8080-exec-2 36
+0:0:0:0:0:0:0:1 - - [28/May/2015:17:12:52 -0300] "GET /resources/images/FacebookButton.png HTTP/1.1" 200 19209 http-bio-8080-exec-4 38
+0:0:0:0:0:0:0:1 - - [28/May/2015:17:12:52 -0300] "GET /resources/css/base-style.css HTTP/1.1" 200 2003 http-bio-8080-exec-3 51
+0:0:0:0:0:0:0:1 - - [28/May/2015:17:12:52 -0300] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-7 3
+0:0:0:0:0:0:0:1 - - [28/May/2015:17:12:53 -0300] "POST /usuario HTTP/1.1" 200 3008 http-bio-8080-exec-8 150
+0:0:0:0:0:0:0:1 - - [28/May/2015:17:12:54 -0300] "GET / HTTP/1.1" 200 2778 http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [28/May/2015:17:12:54 -0300] "GET /resources/css/bootstrap.min.css HTTP/1.1" 200 110939 http-bio-8080-exec-10 2
+0:0:0:0:0:0:0:1 - - [28/May/2015:17:12:54 -0300] "GET /resources/css/base-style.css HTTP/1.1" 200 2003 http-bio-8080-exec-2 2
+0:0:0:0:0:0:0:1 - - [28/May/2015:17:12:54 -0300] "GET /resources/images/FacebookButton.png HTTP/1.1" 200 19209 http-bio-8080-exec-4 2
+0:0:0:0:0:0:0:1 - - [28/May/2015:17:12:54 -0300] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-4 2
+0:0:0:0:0:0:0:1 - - [28/May/2015:17:12:55 -0300] "POST /usuario HTTP/1.1" 200 2869 http-bio-8080-exec-4 8
