@@ -51,7 +51,7 @@ public class OAuthController {
 		}
 		
 		sessao.setAttribute(Constantes.USUARIO_LOGADO, usuario);		
-		return "redirect:/";
+		return "redirect:/dashboard";
 	}
 	
 	@RequestMapping(method=RequestMethod.POST)

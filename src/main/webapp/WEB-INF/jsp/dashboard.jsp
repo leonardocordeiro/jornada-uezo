@@ -28,6 +28,7 @@
 		  	<ul class="nav navbar-nav">
 		    	<li><a href="cadastro.html">Cadastro</a></li>
 		    	<li><a href="index.html">Meu carrinho</a></li>
+		    	<li><a href="index.html">${sessionScope.usuarioLogado.email}</a></li>
 		   	</ul>
 		</div>
 	</nav>

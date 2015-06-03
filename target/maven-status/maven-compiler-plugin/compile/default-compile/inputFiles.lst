@@ -1,4 +1,4 @@
-/Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/OAuthTest.java
+/Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/json/JsonExtractor.java
 /Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/validador/ValidacaoStrategy.java
 /Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/validador/logicas/VerificadorDeTamanhoPadrao2010.java
 /Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/validador/strategy/Padrao2010Strategy.java
@@ -6,10 +6,16 @@
 /Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/controller/HomeController.java
 /Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/servico/UsuarioService.java
 /Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/modelo/Usuario.java
+/Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/auth/OAuthManager.java
 /Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/validador/logicas/VerificadorDeCursoPadrao2010.java
+/Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/modelo/SocialNetwork.java
+/Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/security/DashboardInterceptor.java
 /Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/util/Constantes.java
-/Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/validador/logicas/VerificadorDeSemestrePadrao2010.java
+/Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/auth/FacebookOAuthManager.java
+/Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/controller/DashboardController.java
 /Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/modelo/Curso.java
+/Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/validador/logicas/VerificadorDeSemestrePadrao2010.java
+/Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/controller/OAuthController.java
 /Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/cadastro/aspect/CadastroAspect.java
 /Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/controller/UsuarioController.java
 /Users/leonardocordeiro/Documents/jornada_uezo/jornadauezo/src/main/java/br/com/uezo/jornada/validador/ValidadorDeMatriculaService.java
