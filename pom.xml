@@ -201,6 +201,7 @@
 				<configuration>
 					<excludes>
 						<exclude>**/*SeleniumTest*</exclude>
+						<exclude>**/*IntegrationTest*</exclude>
 					</excludes>
 				</configuration>
 			</plugin>
@@ -211,6 +212,7 @@
 				<configuration>
 					<includes>
 						<include>**/*SeleniumTest*</include>
+						<include>**/*IntegrationTest*</include>
 					</includes>
 				</configuration>
 				<executions>
