@@ -16,19 +16,43 @@ public class Usuario {
 	private Integer id;
 
 	@NotNull
-	@NotEmpty(message = "{nome.nulo}")
+	@NotEmpty(message="{nome.nulo}")
 	private String nome;
 	
-	@NotEmpty(message = "{email.nulo}")
-	@Email(message = "{email.corretamente}")
+	@NotNull
+	@NotEmpty(message="{sobrenome.nulo}")
+	private String sobrenome;
+	
+	
+	@NotEmpty(message="{email.nulo}")
+	@Email(message="{email.corretamente}")
 	private String email;
 	
-	@NotEmpty(message = "{senha.nula}")
+	@NotEmpty(message="{senha.nula}")
 	private String senha;
 	
 	private String matricula;
 	private String caminhoFoto;
 	
+	public Usuario(String nome, String sobrenome, String email, String senha) { 
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+		this.email = email;
+		this.senha = senha;
+	}
+	
+	public Usuario() { 
+		
+	}
+	
+	public String getSobrenome() {
+		return sobrenome;
+	}
+
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
+	}
+
 	public String getCaminhoFoto() {
 		return caminhoFoto;
 	}

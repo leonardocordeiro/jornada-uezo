@@ -1,0 +1,11 @@
+language: java
+
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+
+notifications:
+  email:
+    recipients:
+      - leonardo.b.cordeiro@ig.com.br
+    on_success: always

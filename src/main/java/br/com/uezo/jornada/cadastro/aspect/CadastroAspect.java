@@ -23,7 +23,7 @@ public class CadastroAspect {
 	@Autowired
 	private ValidadorDeMatriculaService validadorDeMatricula;
 	
-	@Around("execution( * br.com.uezo.jornada.controller.UsuarioController.cadastro(..))")
+	@Around("execution(* br.com.uezo.jornada.controller.UsuarioController.cadastro(..))")
 	public Object valida(ProceedingJoinPoint jp) { 
 		try {
 			Model model = (Model) jp.getArgs()[0];

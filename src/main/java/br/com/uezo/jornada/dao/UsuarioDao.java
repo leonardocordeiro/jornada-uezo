@@ -19,6 +19,20 @@ public class UsuarioDao {
 		em.persist(usuario);
 	}
 	
+	public Usuario getByEmail(String email) { 
+		TypedQuery<Usuario> query =
+				em.createQuery("select u from Usuario u where u.email=:pEmail", Usuario.class);
+		
+		query.setParameter("pEmail", email);
+		
+		try {
+			return query.getSingleResult();
+		} catch(NoResultException e) { 
+			return null;
+		}
+		
+	}
+	
 	public Usuario buscarPeloEmailESenha(Usuario usuario) { 
 		TypedQuery<Usuario> query =
 				em.createQuery("select u from Usuario u where u.email=:pEmail and u.senha=:pSenha", 

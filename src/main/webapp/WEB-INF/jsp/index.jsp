@@ -23,7 +23,7 @@
 
 	<div class="container">
 		<fieldset>
-			<legend>Insira seus dados</legend>
+			<legend>Cadastro</legend>
 		</fieldset>
 		<div class="col-sm-4">
 			<div class="col-sm-12">
@@ -45,6 +45,11 @@
 						<label for="nome">Nome: <font color="red">*</font></label><br />
 						<input name="nome" type="text" class="form-control" />	
 						<spring:errors path="usuario.nome" cssStyle="color: red" />					
+					</div>
+					<div class="form-group ${hasErrorInsobrenome}">
+						<label for="nome">Sobrenome: <font color="red">*</font></label><br />
+						<input name="sobrenome" type="text" class="form-control" />	
+						<spring:errors path="usuario.sobrenome" cssStyle="color: red" />					
 					</div>
 					<div class="form-group ${hasErrorInemail}">
 						<label for="email">Email: <font color="red">*</font></label><br />
@@ -70,19 +75,19 @@
 				</form>
 			</div>
 			<br />
-		<div class="col-md-6">
+		<div class="col-sm-6">
 		
-		<form action="oauth" method="post">
-			<div class="jumbotron">
-				<div class="form-group">
-					<label for="matricula">Entrar com:</label>
-					<input type="hidden" name="s" value="FACEBOOK"> 
-					<a href="#"><input type="submit" class="btn btn-primary form-control" value="Facebook"></a>
+			<form action="oauth" method="post">
+				<div class="jumbotron">
+					<div class="form-group">
+						<label for="matricula">Entrar com:</label>
+						<input type="hidden" name="s" value="FACEBOOK"> 
+						<a href="#"><input type="submit" class="btn btn-primary form-control" value="Facebook"></a>
+					</div>
 				</div>
-			</div>
-		</form>
+			</form>
 		</div>
-		<div class="col-md-6">
+		<div class="col-sm-6">
 		<fieldset>
 			<legend>Ou entre com seu e-mail :)</legend>
 		</fieldset>
@@ -104,6 +109,7 @@
 		</form>
 		</div>
 		</div>
+		
 	</div>
 </body>
 </html>
