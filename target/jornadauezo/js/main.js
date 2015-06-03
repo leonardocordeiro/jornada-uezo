@@ -1,1 +1,0 @@
-var principal = angular.module('principal', ['angularMask']);
