@@ -17,7 +17,13 @@ public class UsuarioController {
 	
 	@RequestMapping(method=RequestMethod.POST)
 	public String cadastro(Model model, @Valid Usuario usuario, BindingResult result) {
-		return "index";
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return "form_cadastro";
 	}
 
 }
