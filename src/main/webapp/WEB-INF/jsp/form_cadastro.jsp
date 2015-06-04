@@ -32,9 +32,3 @@
 								<div><font color="red">A matrícula inserida é inválida!</font></div>
 						</c:if>				
 					</div>
-					<br>
-					<div class="form-group">
-						<input type="button" id="cadastrarButton" name="cadastrarButton" class="btn btn-primary btn-lg" value="Cadastrar">
-					</div>
-				</form>
-			

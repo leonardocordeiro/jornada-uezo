@@ -40,6 +40,7 @@
 		</div>
 		<div class="col-sm-8">
 			<div class="col-md-6">
+				<div id="carregando"></div>
 				<div id="cadastroForm">
 					<form id="cadastro" action="usuario" method="post">
 						<div class="form-group ${hasErrorInnome}">
@@ -72,13 +73,12 @@
 								</div>
 							</c:if>
 						</div>
-						<br>
+				</div>
 						<div class="form-group">
 							<input type="button" id="cadastrarButton" name="cadastrarButton"
 								class="btn btn-primary btn-lg" value="Cadastrar">
 						</div>
 					</form>
-				</div>
 			</div>
 			<br />
 			<div class="col-sm-6">
@@ -124,14 +124,26 @@
 			$('#cadastrarButton').attr("value", "Carregando...")
 			$('#cadastrarButton').attr("disabled", "disabled");
 			
-			$.ajax({
-			url : 'usuario',
-			method : 'POST',
-			data : $('#cadastro').serialize(),
-			success : function(retorno) {
-				$("#cadastroForm").html(retorno);
+			$('#carregando').append("<div class='alert alert-warning' id='alert-carregando'>Carregando</div>");
+			
+			carregando();
+			function carregando() {
+				$('#carregando').fadeIn(800);
+				$('#carregando').fadeOut(800);
+				
+				setTimeout(carregando, 0);
 			}
-
+			
+			$.ajax({
+				url : 'usuario',
+				method : 'POST',
+				data : $('#cadastro').serialize(),
+				success : function(retorno) {
+					$("#cadastroForm").html(retorno);
+					$("#alert-carregando").remove();
+					$('#cadastrarButton').removeAttr("disabled");
+					$('#cadastrarButton').attr("value", "Cadastrar");
+				}
 			});
 		});
 	</script>
